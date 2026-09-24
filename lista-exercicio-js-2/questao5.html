@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lista de exercícios 2 - LSW - 18/09</title>
+</head>
+<body>
+   <h3>Operadores e Estruturas de Controle de Fluxo</h3>
+   <h1>Questão 5</h1>
+   <p>Solicite o valor de uma compra. Utilizando o operador
+ternário, informe em uma única linha se o cliente tem frete
+grátis, para compras a partir de R$ 150,00, ou se deverá
+pagar R$ 20,00 de frete. Exiba o valor da compra e a
+condição do frete na mesma mensagem.</p>
+   
+   <script>
+      let valorCompra = Number(prompt("Informe o valor da compra:"));
+
+      let calculoFrete = valorCompra >= 150.00 ? "você tem frete grátis" : "você deverá pagar R$20,00 de frete";
+      console.log(`Compra de R$ ${valorCompra.toFixed(2)} reais - ${calculoFrete}`);
+   </script>
+</body>
+</html>

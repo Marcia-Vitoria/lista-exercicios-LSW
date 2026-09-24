@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lista de exercícios 2 - LSW - 18/09</title>
+</head>
+<body>
+   <h3>Operadores e Estruturas de Controle de Fluxo</h3>
+   <h1>Questão 8</h1>
+   <p>Solicite um número ao usuário e exiba a tabuada completa
+dele, de 1 a 10, utilizando a estrutura for. Cada linha deve
+mostrar a operação e o resultado, no formato 7 x 3 = 21.</p>
+   
+   <script>
+      let num = Number(prompt("Digite um número:"));
+
+      console.log(`Tabuada do ${num}`);
+      let i;
+      for(i=1; i<=10; i++){
+         let multiplicacao = num * i;
+         console.log(`${num} x ${i} = ${multiplicacao}`);
+      }
+   </script>
+</body>
+</html>

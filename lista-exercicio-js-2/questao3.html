@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lista de exercícios 2 - LSW - 18/09</title>
+</head>
+<body>
+   <h3>Operadores e Estruturas de Controle de Fluxo</h3>
+   <h1>Questão 3</h1>
+   <p>Solicite o valor vendido por um representante no mês e a
+meta estabelecida pela empresa. Utilizando operadores
+relacionais, informe se a meta foi atingida, se foi superada e
+se o valor bate exatamente com a meta. Exiba também a
+diferença entre os dois valores. Utilize === e !== nas
+comparações de igualdade e lembre-se de converter os
+valores recebidos.</p>
+   
+   <script>
+      let valorVendido = Number(prompt("Qual o valor vendido pelo representante no mês?"));
+      let metaEstabelecida = Number(prompt("Informe a meta estabelecida pela empresa:"));
+
+      console.log(`Vendido: ${valorVendido} | Meta: ${metaEstabelecida}`);
+
+      console.log("Atingiu a meta?", valorVendido >= metaEstabelecida);
+      console.log("Superou a meta?", valorVendido > metaEstabelecida);
+      console.log("Bateu exatamente?", valorVendido === metaEstabelecida);
+      console.log("Não bateu exatamente?", valorVendido !== metaEstabelecida);
+
+      let diferenca = valorVendido - metaEstabelecida;
+      console.log(`Diferença: ${diferenca}`);
+   </script>
+</body>
+</html>

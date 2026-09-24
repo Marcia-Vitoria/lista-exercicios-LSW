@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lista de exercícios 2 - LSW - 18/09</title>
+</head>
+<body>
+   <h3>Operadores e Estruturas de Controle de Fluxo</h3>
+   <h1>Questão 6</h1>
+   <p>Solicite a temperatura ambiente e classifique-a utilizando if,
+else if e else: Fria, abaixo de 15 graus; Amena, de 15 a 25
+graus; e Quente, acima de 25 graus. Atenção à ordem das
+condições e aos valores exatos dos limites.</p>
+   
+   <script>
+      let temperatura = Number(prompt("Informe a temperatura do ambiente:"));
+      console.log(`Temperatura do ambiente: ${temperatura}`);
+
+      if(temperatura < 15){
+         console.log(`${temperatura} - Clima: Frio`);
+      }
+      else if(temperatura <= 25){
+         console.log(`${temperatura} - Clima: Amena`);
+      }
+      else{
+         console.log(`${temperatura} - Clima: Quente`);
+      }
+   </script>
+</body>
+</html>

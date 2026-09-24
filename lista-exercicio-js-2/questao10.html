@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lista de exercícios 2 - LSW - 18/09</title>
+</head>
+<body>
+   <h3>Operadores e Estruturas de Controle de Fluxo</h3>
+   <h1>Questão 10</h1>
+   <p>Solicite um número N ao usuário. Utilizando um laço de
+repetição e uma estrutura condicional, exiba todos os
+números de 1 até N, indicando ao lado de cada um se ele é
+par ou ímpar. Ao final, informe quantos números pares e
+quantos ímpares foram encontrados.</p>
+   
+   <script>
+      let num = Number(prompt("Digite um número N:"));
+      let par = 0;
+      let impar = 0;
+
+      for(let i=1; i<=num; i++){
+         if(i % 2 === 0){
+            console.log(`${i} - par`);
+            par++;
+         }
+         else{
+            console.log(`${i} - ímpar`);
+            impar++;
+         }
+      }
+
+      console.log("----------------------");
+
+      console.log(`Pares: ${par}`);
+      console.log(`Ìmpares: ${impar}`);
+   </script>
+</body>
+</html>
