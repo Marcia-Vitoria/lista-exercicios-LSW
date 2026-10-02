@@ -8,6 +8,7 @@ Repositório acadêmico destinado à organização das **listas de exercícios e
 | ----------------------- | -------------------------------------------- |
 | `lista-exercicios-js-1` | Fundamentos de JavaScript                    |
 | `lista-exercicios-js-2` | Operadores e estruturas de controle de fluxo |
+| `lista-exercicios-js-3` | Funções, arrays, objetos, JSON e strings     |
 
 > As pastas serão atualizadas conforme novos exercícios e conteúdos forem trabalhados na disciplina.
 
